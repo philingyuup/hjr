@@ -11,17 +11,14 @@ import Link from 'next/link'
 import { options } from './constants'
 import NavigationLinkItem from './linkItem'
 import { cn } from '@/lib/utils'
+import H1 from './h1'
 
 export default function DesktopNav() {
   return (
     <NavigationMenu className='max-w-full [&>div:first-child]:contents p-4'>
       <NavigationMenuList className='w-full flex justify-between'>
         <NavigationMenuItem>
-          <Link href='/' legacyBehavior passHref>
-            <NavigationMenuLink className={cn(defaultNavigationMenuTriggerStyle,'text-xl')}>
-              HJR
-            </NavigationMenuLink>
-          </Link>
+          <H1/>
         </NavigationMenuItem>
         <div className='flex'>
           {options?.map(({ href, title }) => (
