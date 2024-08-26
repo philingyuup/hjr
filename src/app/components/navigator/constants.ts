@@ -10,7 +10,7 @@ export const options = [
   },
   {
     href: '/portfolio',
-    title: 'About'
+    title: 'Portfolio'
   },
   {
     href: '/contact',
