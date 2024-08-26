@@ -13,18 +13,21 @@ type HeroProps = {
   button: {
     href: string,
     value: string,
-  }
+  },
+  heading: string,
+  showHeading?: boolean,
 }
 
-export default function Hero({ children, image, button }: PropsWithChildren<HeroProps>) {
+export default function Hero({ children, image, button, showHeading, heading }: PropsWithChildren<HeroProps>) {
 
   return (
     <article className='h-[60vh] w-full relative'>
         <Image src={image.src} alt={image.alt} fill aria-hidden className='opacity-95 object-cover'/>
         <div className='backdrop-blur-2xl absolute bottom-5 left-5 p-6 rounded-lg flex flex-col gap-2'>
-          <h2>
+          <h2 className={showHeading ? '' : 'sr-only'}>{heading}</h2>
+          <p>
             {children}
-          </h2>
+          </p>
           <div className='mt-4'>
               <Button asChild>
                 <Link href={button.href} className='text-white'>

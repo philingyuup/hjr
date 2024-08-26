@@ -8,6 +8,7 @@ export default function Home() {
       <Hero
         image={image}
         button={button}
+        heading='Construction and Remodeling in Boston'
       >
         <HeroDescription />
       </Hero>
