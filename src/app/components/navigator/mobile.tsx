@@ -1,16 +1,16 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@/shadcnComponents/ui/button'
 import {
   Sheet,
   SheetContent,
   SheetTrigger,
-} from '@/components/ui/sheet'
+} from '@/shadcnComponents/ui/sheet'
 import { HamburgerMenuIcon } from '@radix-ui/react-icons'
 import { useState } from 'react'
 import { options } from './constants'
 import NavigationLinkItem from './linkItem'
-import { NavigationMenu, NavigationMenuList } from '@/components/ui/navigation-menu'
+import { NavigationMenu, NavigationMenuList } from '@/shadcnComponents/ui/navigation-menu'
 import H1 from './h1'
 
 const minWidthFullClassName = { className: 'min-w-full' } as const

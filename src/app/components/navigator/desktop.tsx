@@ -6,7 +6,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   defaultNavigationMenuTriggerStyle,
-} from '@/components/ui/navigation-menu'
+} from '@/shadcnComponents/ui/navigation-menu'
 import Link from 'next/link'
 import { options } from './constants'
 import NavigationLinkItem from './linkItem'
