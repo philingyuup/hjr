@@ -5,7 +5,7 @@ WireFrame:
 
 TODO: 
 
-[] Install shadui
+[✔️] Install shadui
 
 [] Add scaffolding for front page
 

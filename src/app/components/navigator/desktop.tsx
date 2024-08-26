@@ -3,14 +3,10 @@
 import {
   NavigationMenu,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  defaultNavigationMenuTriggerStyle,
 } from '@/shadcnComponents/ui/navigation-menu'
-import Link from 'next/link'
 import { options } from './constants'
 import NavigationLinkItem from './linkItem'
-import { cn } from '@/lib/utils'
 import H1 from './h1'
 
 export default function DesktopNav() {
