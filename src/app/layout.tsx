@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header><Navigator/></header>
+        <header className='sticky top-0 z-50 bg-white'><Navigator/></header>
         <main>{children}</main>
       </body>
     </html>
