@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from "@/shadcnComponents/ui/button"
+import { AspectRatio } from "@radix-ui/react-aspect-ratio"
 import Image from "next/image"
 import Link from "next/link"
 import { PropsWithChildren } from "react"
@@ -21,8 +22,10 @@ type HeroProps = {
 export default function Hero({ children, image, button, showHeading, heading }: PropsWithChildren<HeroProps>) {
 
   return (
-    <article className='h-[60vh] w-full relative'>
-        <Image src={image.src} alt={image.alt} fill aria-hidden className='opacity-95 object-cover'/>
+    <article className='w-full relative'>
+        <AspectRatio ratio={16 / 7}>
+          <Image src={image.src} alt={image.alt} fill aria-hidden className='opacity-95 object-cover'/>
+        </AspectRatio>
         <div className='backdrop-blur-2xl absolute bottom-5 left-5 p-6 rounded-lg flex flex-col gap-2'>
           <h2 className={showHeading ? '' : 'sr-only'}>{heading}</h2>
           <p>
