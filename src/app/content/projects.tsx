@@ -1,6 +1,6 @@
 'use client'
 
-import { AspectRatio } from "@/shadcnComponents/ui/aspect-ratio"
+import { AspectRatio } from "@/components/shadcn/aspect-ratio"
 import Image from "next/image"
 
 const demoProjects = [

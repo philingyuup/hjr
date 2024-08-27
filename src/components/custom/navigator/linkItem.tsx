@@ -1,6 +1,6 @@
 'use client'
 
-import { defaultNavigationMenuTriggerStyle, NavigationMenuItem, NavigationMenuLink, NavigationMenuTrigger } from "@/shadcnComponents/ui/navigation-menu";
+import { defaultNavigationMenuTriggerStyle, NavigationMenuItem, NavigationMenuLink, NavigationMenuTrigger } from "@/components/shadcn/navigation-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { ComponentPropsWithoutRef, PropsWithChildren } from "react";

@@ -4,7 +4,7 @@ import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-} from '@/shadcnComponents/ui/navigation-menu'
+} from '@/components/shadcn/navigation-menu'
 import { options } from './constants'
 import NavigationLinkItem from './linkItem'
 import H1 from './h1'

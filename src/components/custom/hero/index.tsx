@@ -1,6 +1,6 @@
 'use client'
 
-import { Button } from "@/shadcnComponents/ui/button"
+import { Button } from "@/components/shadcn/button"
 import { AspectRatio } from "@radix-ui/react-aspect-ratio"
 import Image from "next/image"
 import Link from "next/link"

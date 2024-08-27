@@ -1,7 +1,7 @@
 'use client'
 
-import { AspectRatio } from "@/shadcnComponents/ui/aspect-ratio"
-import { Button } from "@/shadcnComponents/ui/button"
+import { AspectRatio } from "@/components/shadcn/aspect-ratio"
+import { Button } from "@/components/shadcn/button"
 import Image from "next/image"
 import Link from "next/link"
 

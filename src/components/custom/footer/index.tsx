@@ -1,9 +1,8 @@
 'use client'
 
-import Image from "next/image"
 import { options as linkOptions } from "../navigator/constants"
 import Link from "next/link"
-import { Separator } from "@/shadcnComponents/ui/separator"
+import { Separator } from "@/components/shadcn/separator"
 import { PropsWithChildren } from "react"
 import { cn } from "@/lib/utils"
 

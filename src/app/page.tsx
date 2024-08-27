@@ -1,10 +1,10 @@
-import Hero from './components/hero';
-import HeroDescription from './components/hero/content';
-import { button, image } from './components/hero/constants';
+import Hero from '../components/custom/hero';
+import HeroDescription from '../components/custom/hero/content';
+import { button, image } from '../components/custom/hero/constants';
 import AboutUs from './content/about-us';
-import { Separator } from '@/shadcnComponents/ui/separator';
+import { Separator } from '@/components/shadcn/separator';
 import Projects from './content/projects';
-import Footer from './components/footer';
+import Footer from '../components/custom/footer';
 
 export default function Home() {
   return (
