@@ -4,6 +4,7 @@ import { button, image } from './components/hero/constants';
 import AboutUs from './content/about-us';
 import { Separator } from '@/shadcnComponents/ui/separator';
 import Projects from './content/projects';
+import Footer from './components/footer';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUs />
       <Separator />
       <Projects />
+      <Footer />
     </main>
   );
 }

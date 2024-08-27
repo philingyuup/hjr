@@ -16,4 +16,4 @@ export const options = [
     href: '/contact',
     title: 'Contact'
   }
-] as const
+]
