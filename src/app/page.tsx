@@ -1,6 +1,9 @@
 import Hero from './components/hero';
-import HeroDescription, { button, image } from './components/hero/description';
-
+import HeroDescription from './components/hero/content';
+import { button, image } from './components/hero/constants';
+import AboutUs from './content/AboutUs';
+import { Separator } from '@/shadcnComponents/ui/separator';
+import Projects from './content/Projects';
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       >
         <HeroDescription />
       </Hero>
+      <AboutUs />
+      <Separator />
+      <Projects />
     </main>
   );
 }
