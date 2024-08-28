@@ -5,6 +5,7 @@ import AboutUs from './content/about-us';
 import { Separator } from '@/components/shadcn/separator';
 import Projects from './content/projects';
 import Footer from '../components/custom/footer';
+import PictureText from '@/components/custom/picture-text';
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
       >
         <HeroDescription />
       </Hero>
-      <AboutUs />
+      <PictureText image={image}>
+        <AboutUs />
+      </PictureText>
       <Separator />
       <Projects />
       <Footer />
